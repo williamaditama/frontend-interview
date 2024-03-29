@@ -1,22 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row,  } from 'react-bootstrap';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <h1>Incomplete</h1>
-        </Col>
-        <Col>
-          <h1>Complete</h1>
-        </Col>
-      </Row>
-    </Container>
+    <div className='bg-red-500'>
+      <h1>TEst</h1>
+    </div>
   );
 }
 
